@@ -1,11 +1,11 @@
-About r-reproj
-==============
+About r-reproj-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-reproj-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/hypertidy/reproj/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-reproj-feedstock/blob/main/LICENSE.txt)
 
 Summary: Transform coordinates from a specified source to a specified target map projection. This uses the 'PROJ' library directly, by wrapping the 'PROJ' package (if functional), otherwise the 'proj4' package. The 'reproj()' function is generic, methods may be added to remove the need for an explicit source definition. If 'proj4' is in use 'reproj()' handles the requirement for conversion of angular units where necessary. This is for use primarily to transform generic data formats and direct leverage of the underlying 'PROJ' library. (There are transformations that aren't possible with 'PROJ' and that are provided by the 'GDAL' library, a limitation which users of this package should be aware of.) The 'PROJ' library is available at <https://proj.org/>.
 
